@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+}
+.tit_principal{
+    padding-left: 30px;
+}
+#banner{
+    width: 100%;
+   
+    
+}
+.principal{
+    background-color: #cccccc;
+    padding: 20px;
+}
+.tit_central{
+    text-align: center;
+   
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+    font-size: 20px;}
+   
+em strong{
+    color: red;
+}
+.diferenciales{
+    background-color: white;
+    padding: 30px;
+    
+    
+}
+h3{
+    text-align: center;
+}
+.item-diferenciales{
+    font-style: italic;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+#img-diferenciales{
+    width: 50%;
+    
+    
+}

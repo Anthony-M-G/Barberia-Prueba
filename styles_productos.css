@@ -1,0 +1,117 @@
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+    
+}
+nav li{
+    display: inline-block; 
+    margin: 0 0 0 15px;
+    
+   
+
+
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(222, 153, 69);
+    text-decoration: underline;
+}
+.productos{ /*Manera de desplegar cajas de opciones, se define una anchura y sus elementos ocuparan el porcentace del total entre la cantidad de elementos*/
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;/* Acá cada li toma un 30% del espacion y el margin toma el otro 9%*/
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box; /*le dice al navegador que tenga en cuenta cualquier borde y relleno en los valores que especifique para el ancho y alto de un elemento*/
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+.productos li:hover{ /*Capturar el evento del mouse*/
+    border-color: rgb(222, 153, 69);
+    font-size: 33px;
+}
+.productos li:active{
+    border-color: rgb(27, 130, 96);
+}
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.productos li p{
+    font-size: 18px;
+}
+.productos li .precio{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;;
+}
+footer{
+    background-image: url("imgs/bg.jpg");
+    text-align: center;
+    background-color: black;
+    
+    padding: 40px;
+}
+footer .p-footer{
+    font-size: 13px;
+    color: azure;
+
+}
+/*Contacto*/
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label, p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    
+
+}
+.padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+form input[type="radio"]{
+    display: inline-block;
+    margin: 0;
+   
+}
+.checkbox{
+    margin: 20px 0;
+}
